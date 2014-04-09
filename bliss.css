@@ -1,0 +1,123 @@
+#wrapper {
+  display: block;
+  overflow: hidden;
+  width: 100%;
+  height: 100%;
+  margin-bottom: 100px
+}
+
+#header {
+  height: 200px;
+  padding: 0 0;
+  position: relative;
+  margin-bottom: 20px
+  font-family: 'Henny Penny', cursive;
+}
+
+.sliderContainer {
+  height: 350px;
+  padding: 0 0;
+  position: relative;
+  margin-bottom: 80px;
+}
+
+.sliderContainer .slidernav {
+  margin: 0 auto;
+  text-align: center;
+}
+
+.sliderContainer .slidernav .item {
+  display: inline-block;
+  width: 7px;
+  height: 7px;
+  border-radius: 5px;
+  border: 1px solid #F26951;
+  margin: 12px 7.5px;
+}
+
+.sliderContainer .slidernav .item.selected {
+  background-color: #F26951;
+}
+
+#featured_slider {
+  z-index: 5;
+}
+
+#featured_slider .nextslide,
+#featured_slider .prevslide {
+  background-image: url("right arrow.png"), url("left arrow.png"); 
+  background-repeat: no-repeat;
+  width: 50px;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  display: block;
+  z-index: 100;
+  right: 0;
+}
+
+#featured_slider .nextslide:hover,
+#featured_slider .prevslide:hover {
+  background-position: -200px center;
+}
+
+#featured_slider .nextslide {
+  background-position: -125px center;
+}
+
+#featured_slider .prevslide {
+  left: 0;
+  background-position: -75px center;
+}
+
+#featured_slider .prevslide:hover {
+  background-position: 0px center;
+}
+
+.iosSlider {
+  position: relative;
+  top: 0;
+  left: 0;
+  overflow: hidden;
+  width: 100%;
+  height: 100%;
+  background-color: #E8E5D5;
+}
+
+.iosSlider .slider {
+  width: 100%;
+  height: 100%;
+}
+
+.iosSlider .slider .item {
+  width: 100%;
+  height: 100%;
+  padding: 0 0 0 0;
+  background-attachment: scroll;
+  background-clip: border-box;
+  background-color: transparent;
+  background-origin: padding-box;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.iosSlider .slider .item .inner {
+  position: relative;
+  top: 0;
+  left: 0;
+  width: 870px;
+  margin: 0 auto;
+  height: 100%;
+  background-position: 50% 0;
+  background-repeat: no-repeat;
+}
+
+#about {
+  width: 100%;
+  position: relative;
+  margin: 0 auto;
+  height: auto;
+  font-family: 'Henny Penny', 'cursive';
+  font-color: ;
+}			 
